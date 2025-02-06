@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/gamePage.css">
+    <title>Not Really Flappy Bird</title>
+</head>
+<body>
+    <img src="resources/bird/redbird-upflap.png" alt="" class="make-disappear" id="redbird-upflap">
+    <img src="resources/bird/redbird-midflap.png" alt="" class="make-disappear" id="redbird-midflap">
+    <img src="resources/bird/redbird-downflap.png" alt="" class="make-disappear" id="redbird-downflap">
+
+    <img src="resources/background/1.png" alt="" class="make-disappear" id="layer1">
+    <img src="resources/background/2.png" alt="" class="make-disappear" id="layer2">
+    <img src="resources/background/4.png" alt="" class="make-disappear" id="layer3">
+
+    <canvas id="canvas1"></canvas>
+    
+    <div class="content-mask make-disappear"></div>
+    <div class="game-over-container make-disappear">
+        <p class="game-over-message">GAME OVER</p>
+        <p class="score-message">Your Score: 0</p>
+        <br><br>
+        <p class="exit-message continue-message">Press Esc to exit</p>
+        <p class="new-game-message continue-message">Press Enter for a new game</p>
+    </div>
+    <script src="scripts/gamePage.js"></script>
+</body>
+</html>
